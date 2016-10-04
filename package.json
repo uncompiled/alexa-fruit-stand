@@ -1,0 +1,27 @@
+{
+  "name": "alexa-fruit-stand",
+  "version": "1.0.0",
+  "description": "Alexa Fruit Stand Skill",
+  "main": "index.js",
+  "scripts": {
+    "items": "node speechAssets/items.js",
+    "test": "xo && ava -v"
+  },
+  "keywords": [
+    "Alexa Skill",
+    "Fruit Stand"
+  ],
+  "author": "Chris Nguyen",
+  "license": "MIT",
+  "xo": {
+    "space": 2,
+    "semicolon": false,
+    "ignores": [
+      "src/alexa-skill.js"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "xo": "^0.16.0"
+  }
+}

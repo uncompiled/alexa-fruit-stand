@@ -1,0 +1,20 @@
+FruitStandIntent how do I store {Item}
+FruitStandIntent how do I store some {Item}
+FruitStandIntent how do I store these {Item}
+FruitStandIntent how do I store the {Item}
+FruitStandIntent how do I store this {Item}
+FruitStandIntent how do you store {Item}
+FruitStandIntent how do you store some {Item}
+FruitStandIntent how do you store these {Item}
+FruitStandIntent how do you store the {Item}
+FruitStandIntent how do you store this {Item}
+FruitStandIntent how to store {Item}
+FruitStandIntent how to store some {Item}
+FruitStandIntent how to store these {Item}
+FruitStandIntent how to store the {Item}
+FruitStandIntent how to store this {Item}
+FruitStandIntent how should I store {Item}
+FruitStandIntent how should I store some {Item}
+FruitStandIntent how should I store these {Item}
+FruitStandIntent how should I store the {Item}
+FruitStandIntent how should I store this {Item}
