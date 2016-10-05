@@ -34,7 +34,7 @@ module.exports = {
   'summer squashes': 'summer squashes should be refrigerated',
   'sweet corn': 'sweet corn should be refrigerated',
   'herbs': 'except for basil, most herbs should be refrigerated',
-  'kale': 'kale should be refrigerated in plastic bag, don\'t wash until ready to use',
+  'kale': 'kale should be refrigerated in a plastic bag, don\'t wash until ready to use',
 
   // Ripen, then refrigerate
   'avocados': 'avocados should be ripened at room temperature, then refrigerated',
