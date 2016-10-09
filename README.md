@@ -20,6 +20,7 @@ please create an issue before you submit a PR using the [new item template](.git
 - Based on examples from the [Alexa Skills Kit](https://github.com/amzn/alexa-skills-kit-js)
 - Information comes from [UC Davis Postharvest Technology](http://ucce.ucdavis.edu/files/datastore/234-1920.pdf)
 - Idea from the mind of @street_pizza
+- Fruit Basket by Boudewijn Mijnlieff from the Noun Project
 
 ## License
 
