@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "items": "node speechAssets/items.js",
-    "test": "xo && ava -v"
+    "test": "$(npm bin)/xo && $(npm bin)/ava -v"
   },
   "keywords": [
     "Alexa Skill",
