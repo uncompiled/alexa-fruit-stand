@@ -1,0 +1,19 @@
+service: alexa-fruit-stand
+provider:
+  name: aws
+  runtime: nodejs4.3
+  stage: v1
+  region: us-east-1
+package:
+  include:
+    - src/**
+  exclude:
+    - .github/**
+    - .serverless/**
+    - icons/**
+    - node_modules/**
+    - speechAssets/**
+    - test/**
+functions:
+  skill:
+    handler: src/index.handler
