@@ -49,6 +49,7 @@ FruitStand.prototype.intentHandlers = {
         type: AlexaSkill.speechOutputType.PLAIN_TEXT
       }
 
+      bugReport(itemName)
       response.ask(speechOutput, repromptOutput)
     }
   },
@@ -77,6 +78,18 @@ FruitStand.prototype.intentHandlers = {
 
     response.ask(speechOutput, repromptOutput)
   }
+}
+
+/* bugReport formats a log message in JSON format
+ * to generate metrics for unsupported requests
+ * @param {string} itemName - requested item
+ */
+function bugReport(itemName) {
+  const message = {
+    status: 400,
+    requestedItem: itemName
+  }
+  console.log(JSON.stringify(message))
 }
 
 exports.handler = function (event, context) {
