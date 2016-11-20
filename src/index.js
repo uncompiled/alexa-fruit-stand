@@ -89,7 +89,10 @@ function bugReport(itemName) {
     status: 400,
     requestedItem: itemName
   }
-  console.log(JSON.stringify(message))
+
+  if (itemName) {
+    console.log(JSON.stringify(message))
+  }
 }
 
 exports.handler = function (event, context) {
