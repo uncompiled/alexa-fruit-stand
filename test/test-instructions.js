@@ -11,7 +11,6 @@ test('all custom slot types should have instructions', t => {
       t.is(key.length, key.trim().length, 'item name should not have leading or trailing whitespace')
 
       t.true(instructions[key].length > key.length, 'instructions should be long enough to be useful')
-      t.true(instructions[key].indexOf(key) >= 0, 'item name should be used in the instructions')
     } else {
       t.fail('item name should be at least one character')
     }
