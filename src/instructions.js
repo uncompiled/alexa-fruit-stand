@@ -38,6 +38,7 @@ const instructions = {
   'sweet corn': 'sweet corn should be refrigerated',
   'herbs': 'except for basil, most herbs should be refrigerated',
   'kale': 'kale should be refrigerated in a plastic bag, don\'t wash until ready to use',
+  'green beans': 'green beans should be refrigerated in a plastic bag. do not wash until ready to use',
 
   // Ripen, then refrigerate
   'avocados': 'avocados should be ripened at room temperature, then refrigerated',
