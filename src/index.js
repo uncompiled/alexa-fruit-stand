@@ -25,7 +25,7 @@ FruitStand.prototype.intentHandlers = {
     const itemSlot = intent.slots.Item
     const itemName = (itemSlot && itemSlot.value) ? itemSlot.value.toLowerCase() : false
     const cardTitle = 'Storage instructions for ' + itemName
-    const instruction = instructions[itemName]
+    const instruction = instructions.find(itemName)
 
     var speechOutput
     var repromptOutput
