@@ -42,6 +42,7 @@ const instructions = {
   'turnips': 'raw turnips should be refrigerated in a plastic bag until ready to use',
   'watercress': 'for best results, wrap a wet cloth around its roots and place the watercress in a plastic bag before storing it in the refrigerator. watercress does not freeze well.',
   'arugula': 'arugula should be refrigerated inside a sealed plastic bag with a dry paper towel to absorb excess moisture. arugula does not freeze well.',
+  'bok choy': 'bok choy should be refrigerated in a plastic bag. do not wash until ready to use',
 
   // Ripen, then refrigerate
   'avocados': 'avocados should be ripened at room temperature, then refrigerated',
