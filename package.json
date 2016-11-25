@@ -23,5 +23,8 @@
   "devDependencies": {
     "ava": "^0.16.0",
     "xo": "^0.16.0"
+  },
+  "dependencies": {
+    "pluralize": "^3.0.0"
   }
 }

@@ -2,16 +2,17 @@ service: alexa-fruit-stand
 provider:
   name: aws
   runtime: nodejs4.3
-  stage: v1
+  stage: v2
   region: us-east-1
 package:
   include:
     - src/**
+    - node_modules/pluralize/**
   exclude:
+    - .git/**
     - .github/**
     - .serverless/**
     - icons/**
-    - node_modules/**
     - speechAssets/**
     - test/**
 functions:
