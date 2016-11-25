@@ -30,6 +30,7 @@ const instructions = {
   'lettuce': 'lettuce should be refrigerated',
   'mushrooms': 'mushrooms should be refrigerated',
   'peas': 'peas should be refrigerated',
+  'pickles': 'pickles should be refrigerated',
   'radishes': 'radishes should be refrigerated',
   'spinach': 'spinach should be refrigerated',
   'sprouts': 'sprouts should be refrigerated',
