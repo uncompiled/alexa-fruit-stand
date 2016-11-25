@@ -75,6 +75,7 @@ const instructions = {
   'garlic': 'garlic should be stored in a well ventilated area in the pantry',
   'potatoes': 'potatoes should be stored in a well ventilated area in the pantry.  protect potatoes from light to avoid greening.',
   'sweet potatoes': 'sweet potatoes should be stored in a well ventilated area in the pantry',
+  'yams': 'yams should be stored in a well ventilated area in the pantry. Do not refrigerate yams, as doing so can alter their taste and flavor during cooking.',
 
   'pumpkins': 'pumpkins should be stored at room temperature',
   'ginger': 'ginger should be stored at room temperature',
