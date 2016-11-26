@@ -99,7 +99,8 @@ module.exports = {
   * @returns {string} string containing speech text
   */
   find: function (itemName) {
-    return instructions[itemName] || instructions[pluralize(itemName)]
+    // pluralize expects input to be a string and throws TypeError
+    return (itemName) ? instructions[itemName] || instructions[pluralize(itemName)] : false
   },
   items: instructions
 }

@@ -21,3 +21,8 @@ test('singular and plural variants should be defined', t => {
   t.not(instructions.find('banana'), undefined, 'banana was not found in the instructions')
   t.not(instructions.find('bananas'), undefined, 'bananas were not found in the instructions')
 })
+
+test('blank requests should not throw an error', t => {
+  t.is(instructions.find(null), false, 'null request does not throw an error')
+  t.is(instructions.find(undefined), false, 'undefined request does not throw an error')
+})
