@@ -21,7 +21,7 @@ const instructions = {
   'cabbages': 'cabbage should be stored in the refrigerator',
   'carrots': 'carrots should be stored in the refrigerator',
   'cauliflowers': 'cauliflower should be stored in the refrigerator',
-  'celerys': 'celery should be stored in the refrigerator',
+  'celery': 'celery should be stored in the refrigerator',
   'cut fruit': 'cut fruit should be refrigerated',
   'cut vegetables': 'cut vegetables should be refrigerated',
   'green onion': 'green onions should be refrigerated',
