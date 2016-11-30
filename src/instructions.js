@@ -58,6 +58,7 @@ const instructions = {
   'pears': 'pears should be ripened at room temperature, then refrigerated',
   'plums': 'plums should be ripened at room temperature, then refrigerated',
   'plumcots': 'plumcots should be ripened at room temperature, then refrigerated',
+  'starfruit': 'starfruit, also known as carambola, should be ripened at room temperature, then refrigerated',
 
   // Store at room temperature
   'bananas': 'bananas should be stored at room temperature',
