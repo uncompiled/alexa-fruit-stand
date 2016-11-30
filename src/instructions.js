@@ -92,7 +92,11 @@ const instructions = {
   'ginger': 'ginger should be stored at room temperature',
   'jicama': 'jicama should be stored at room temperature',
   'tomatoes': 'tomatoes should be stored at room temperature',
-  'winter squash': 'winter squashes should be stored at room temperature'
+  'winter squash': 'winter squashes should be stored at room temperature',
+
+  // easter eggs
+  'coffee': 'coffee beans should be stored at room temperature away from light. do not freeze or refrigerate coffee beans. coffee beans are porous and can absorb the flavor of other items in the refrigerator',
+  'pie': 'pie containing eggs, such as custard or cream, should be refrigerated, but fruit pies keep at room temperature for up to two days'
 }
 
 module.exports = {
