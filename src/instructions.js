@@ -47,6 +47,7 @@ const instructions = {
   'collard greens': 'collard greens should be refrigerated in a plastic bag. do not wash until ready to use',
   'zucchinis': 'zucchinis should be refrigerated in a plastic bag.  do not wash until ready to use.',
   'dragon fruit': 'dragon fruit will keep on the counter for a few days. if you want to keep it longer than that, store it in a plastic bag in the refrigerator',
+  'cilantro': 'cilantro should be refrigerated. for best results, place stems in a jar of water with a plastic sandwich bag loosely covering the leaves',
 
   // Ripen, then refrigerate
   'avocados': 'avocados should be ripened at room temperature, then refrigerated',
