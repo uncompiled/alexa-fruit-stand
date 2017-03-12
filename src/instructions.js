@@ -100,6 +100,7 @@ const instructions = {
   'shallots': 'shallots will keep for about a month stored at room temperature in a cool dry area. you can store them in the refrigerator, but they will only last for 2 weeks',
 
   // easter eggs
+  'butter': 'butter is not a fruit, but it should be refrigerated in its original wrapper. The foil laminated paper helps prevent spoilage from exposure to light and air and also protects butter from picking up the flavour of other foods. Once opened, both salted and unsalted butter will keep in the fridge for three weeks',
   'coffee': 'coffee beans should be stored at room temperature away from light. do not freeze or refrigerate coffee beans. coffee beans are porous and can absorb the flavor of other items in the refrigerator',
   'pie': 'pie containing eggs, such as custard or cream, should be refrigerated, but fruit pies keep at room temperature for up to two days'
 }
