@@ -50,6 +50,7 @@ const instructions = {
   'cilantro': 'cilantro should be refrigerated. for best results, place stems in a jar of water with a plastic sandwich bag loosely covering the leaves',
   'parsley': 'parsley can be stored at room temperature or refrigerated. for best results, place stems in a jar of water with a plastic sandwich bag loosely covering the leaves',
   'okra': 'okrah should be refrigerated in a plastic bag. do not wash until ready to use',
+  'cranberries': 'fresh cranberries can be stored in the refrigerator in a plastic bag or covered container for 3 to 4 weeks. alternatively, they can be frozen for up to 1 year',
 
   // Ripen, then refrigerate
   'avocados': 'avocados should be ripened at room temperature, then refrigerated',
