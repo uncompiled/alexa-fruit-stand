@@ -95,6 +95,7 @@ const instructions = {
   'jicama': 'jicama should be stored at room temperature',
   'tomatoes': 'tomatoes should be stored at room temperature',
   'winter squash': 'winter squashes should be stored at room temperature',
+  'raisins': 'raisins should be stored in a cool dry area. after opening, place in sealed airtight container. in hot humid environments, refrigerate to extend shelf life',
 
   // easter eggs
   'coffee': 'coffee beans should be stored at room temperature away from light. do not freeze or refrigerate coffee beans. coffee beans are porous and can absorb the flavor of other items in the refrigerator',
