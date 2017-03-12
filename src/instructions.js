@@ -51,6 +51,7 @@ const instructions = {
   'parsley': 'parsley can be stored at room temperature or refrigerated. for best results, place stems in a jar of water with a plastic sandwich bag loosely covering the leaves',
   'okra': 'okrah should be refrigerated in a plastic bag. do not wash until ready to use',
   'cranberries': 'fresh cranberries can be stored in the refrigerator in a plastic bag or covered container for 3 to 4 weeks. alternatively, they can be frozen for up to 1 year',
+  'parsnips': 'parsnips should be wrapped in a paper towel and placed in a plastic bag in the vegetable drawer of your refrigerator. they should last up to 2 weeks',
 
   // Ripen, then refrigerate
   'avocados': 'avocados should be ripened at room temperature, then refrigerated',
