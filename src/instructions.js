@@ -95,6 +95,8 @@ const instructions = {
   'ginger': 'ginger should be stored at room temperature',
   'jicama': 'jicama should be stored at room temperature',
   'tomatoes': 'tomatoes should be stored at room temperature',
+  'cherry tomatoes': 'tomatoes should be stored at room temperature',
+  'grape tomatoes': 'tomatoes should be stored at room temperature',
   'winter squash': 'winter squashes should be stored at room temperature',
   'raisins': 'raisins should be stored in a cool dry area. after opening, place in sealed airtight container. in hot humid environments, refrigerate to extend shelf life',
   'shallots': 'shallots will keep for about a month stored at room temperature in a cool dry area. you can store them in the refrigerator, but they will only last for 2 weeks',
