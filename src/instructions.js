@@ -105,6 +105,8 @@ const instructions = {
 
   // weird things
   'squash': 'there are two types of squashes: summer and winter squash, which refer to the time of year the squash was harvested. summer squashes like yellow squash and zucchini should be refrigerated, while winter squashes like butternut squash and pumpkins should be stored at room temperature until they are ready to be prepared',
+  'fruit': 'please ask for a specific type of fruit',
+  'vegetables': 'please ask for a specific type of vegetable',
 
   // easter eggs
   'butter': 'butter is not a fruit, but it should be refrigerated in its original wrapper. The foil laminated paper helps prevent spoilage from exposure to light and air and also protects butter from picking up the flavour of other foods. Once opened, both salted and unsalted butter will keep in the fridge for three weeks',
