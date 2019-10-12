@@ -1,5 +1,7 @@
 # "Alexa, ask Fruit Stand, how do I store (fruit | vegetable)..."
 
+[![Build Status](https://travis-ci.org/uncompiled/alexa-fruit-stand.svg?branch=master)](https://travis-ci.org/uncompiled/alexa-fruit-stand)
+
 Fruit Stand is an Alexa Skill that responds with information
 regarding how to store particular fruits or vegetables.
 
