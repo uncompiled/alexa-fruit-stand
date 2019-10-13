@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/uncompiled/alexa-fruit-stand.svg?branch=master)](https://travis-ci.org/uncompiled/alexa-fruit-stand)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/bb990d4c39537fce2ce4/maintainability)](https://codeclimate.com/github/uncompiled/alexa-fruit-stand/maintainability)
+
 Fruit Stand is an Alexa Skill that responds with information
 regarding how to store particular fruits or vegetables.
 
