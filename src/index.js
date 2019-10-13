@@ -3,11 +3,11 @@
 const AlexaSkill = require('./alexa-skill')
 const instructions = require('./instructions')
 
-// app configuration
+// App configuration
 const APP_ID = 'amzn1.ask.skill.81a9a971-dae1-4b4a-950c-923e2cc7b816'
 
 // Fruit Stand extends AlexaSkill
-var FruitStand = function () {
+const FruitStand = function () {
   AlexaSkill.call(this, APP_ID)
 }
 
@@ -21,14 +21,14 @@ FruitStand.prototype.eventHandlers.onLaunch = function (launchRequest, session, 
 }
 
 FruitStand.prototype.intentHandlers = {
-  'FruitStandIntent': function (intent, session, response) {
+  FruitStandIntent(intent, session, response) {
     const itemSlot = intent.slots.Item
     const itemName = (itemSlot && itemSlot.value) ? itemSlot.value.toLowerCase() : false
     const cardTitle = 'Storage instructions for ' + itemName
     const instruction = instructions.find(itemName)
 
-    var speechOutput
-    var repromptOutput
+    let speechOutput
+    let repromptOutput
 
     if (instruction) {
       speechOutput = {
@@ -40,7 +40,7 @@ FruitStand.prototype.intentHandlers = {
       const speech = (itemName) ? 'I\'m sorry, I do not know how to store ' + itemName + '. What else can I help with?' : 'I\'m sorry, I do not know how to store that. What else can I help with?'
 
       speechOutput = {
-        speech: speech,
+        speech,
         type: AlexaSkill.speechOutputType.PLAIN_TEXT
       }
 
@@ -54,15 +54,15 @@ FruitStand.prototype.intentHandlers = {
     }
   },
 
-  'AMAZON.StopIntent': function (intent, session, response) {
+  'AMAZON.StopIntent'(intent, session, response) {
     response.tell('Goodbye')
   },
 
-  'AMAZON.CancelIntent': function (intent, session, response) {
+  'AMAZON.CancelIntent'(intent, session, response) {
     response.tell('Goodbye')
   },
 
-  'AMAZON.HelpIntent': function (intent, session, response) {
+  'AMAZON.HelpIntent'(intent, session, response) {
     const speechText = 'You can ask questions such as, how do I store apples, or, you can say exit... Now, what can I help you with?'
     const repromptText = 'You can say things like, how do I store this banana, or, you can say exit... Now, what can I help you with?'
 
@@ -80,7 +80,8 @@ FruitStand.prototype.intentHandlers = {
   }
 }
 
-/* bugReport formats a log message in JSON format
+/**
+ * Formats a log message in JSON format
  * to generate metrics for unsupported requests
  * @param {string} itemName - requested item
  */

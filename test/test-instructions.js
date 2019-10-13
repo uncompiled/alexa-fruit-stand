@@ -2,7 +2,7 @@ import test from 'ava'
 import instructions from '../src/instructions'
 
 test('all custom slot types should have instructions', t => {
-  for (var key in instructions.items) {
+  for (const key in instructions.items) {
     if (key) {
       t.not(instructions.find(key), undefined, 'instructions are not undefined')
       t.not(instructions.find(key), null, 'instructions are not null')
