@@ -4,7 +4,7 @@ This folder contains metadata used for configuring the Alexa skill.
 
 ## IntentSchema.json
 
-This file defines the Intent format.  Fruit Stand has one action and
+This file defines the Intent format. Fruit Stand has one action and
 therefore, one intent. Each fruit/vegetable is stored as a custom slot
 type called Item.
 

@@ -28,7 +28,7 @@ so if you adapt this code for something else, you'll want to change it.
 
 ## Contributions
 
-Contributions are welcome.  If you'd like to add support for new fruits and vegetables,
+Contributions are welcome. If you'd like to add support for new fruits and vegetables,
 please create an issue before you submit a PR using the [new item template](.github/NEW_ITEM_TEMPLATE.md).
 
 ## Credits
