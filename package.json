@@ -15,13 +15,6 @@
   ],
   "author": "Chris Nguyen",
   "license": "MIT",
-  "xo": {
-    "space": 2,
-    "semicolon": false,
-    "ignores": [
-      "src/alexa-skill.js"
-    ]
-  },
   "devDependencies": {
     "jest": "^29.7.0",
     "prettier": "^3.2.5",
