@@ -5,16 +5,16 @@ provider:
   stage: v2
   region: us-east-1
 package:
-  include:
+  patterns:
     - src/**
     - node_modules/pluralize/**
-  exclude:
-    - .git/**
-    - .github/**
-    - .serverless/**
-    - icons/**
-    - speechAssets/**
-    - test/**
+    - '!.git/**'
+    - '!.github/**'
+    - '!.serverless/**'
+    - '!icons/**'
+    - '!speechAssets/**'
+    - '!test/**'
 functions:
   skill:
     handler: src/index.handler
+    logRetentionInDays: 7
