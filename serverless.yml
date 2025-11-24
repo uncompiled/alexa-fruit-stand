@@ -1,7 +1,7 @@
 service: alexa-fruit-stand
 provider:
   name: aws
-  runtime: nodejs20.x
+  runtime: nodejs24.x
   stage: v2
   region: us-east-1
 package:
@@ -17,4 +17,4 @@ package:
 functions:
   skill:
     handler: src/index.handler
-    logRetentionInDays: 7
+    logRetentionInDays: 1
