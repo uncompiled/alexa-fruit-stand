@@ -1,3 +1,7 @@
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: uncompiled
+# "app" enables Serverless Framework Dashboard features and sharing them with other Services.
+app: alexa-fruit-stand
 service: alexa-fruit-stand
 provider:
   name: aws

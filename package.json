@@ -4,7 +4,7 @@
   "description": "Alexa Fruit Stand Skill",
   "main": "index.js",
   "scripts": {
-    "deploy": "npm prune --production && serverless deploy",
+    "deploy": "npm prune --production && npx serverless deploy",
     "format": "prettier . --write",
     "items": "node speechAssets/items.js",
     "test": " jest src"
