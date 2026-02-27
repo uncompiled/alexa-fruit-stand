@@ -21,7 +21,7 @@
     "serverless": "^3.38.0"
   },
   "dependencies": {
-    "npm": "^11.5.2",
+    "npm": "^11.11.0",
     "pluralize": "^3.0.0"
   }
 }
